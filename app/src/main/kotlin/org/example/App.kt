@@ -89,12 +89,12 @@ fun main() = runBlocking {
 
             if (alreadyThisWeek) {
                 message.channel.createMessage {
-                    stickerId(Snowflake("1459942719966412882"))
+                    stickerId(Snowflake("1459956550260097300"))
                     messageReference = message.id
                 }
             } else {
                 message.channel.createMessage {
-                    stickerId(Snowflake("1458549999897022787"))
+                    stickerId(Snowflake("1454915613846798548"))
                     messageReference = message.id
                 }
             }
