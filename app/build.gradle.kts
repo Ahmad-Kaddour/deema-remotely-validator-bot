@@ -12,6 +12,8 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+
+    id("com.gradleup.shadow") version "9.2.2"
 }
 
 repositories {
@@ -52,11 +54,10 @@ application {
     mainClass = "org.example.AppKt"
 }
 
-tasks.jar {
+tasks.shadowJar {
+    archiveFileName = "app.jar"
     manifest {
-        attributes(
-            "Main-Class" to "org.example.AppKt"
-        )
+        attributes("Main-Class" to "org.example.AppKt")
     }
 }
 
