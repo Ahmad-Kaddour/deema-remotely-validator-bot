@@ -61,14 +61,6 @@ tasks.shadowJar {
     }
 }
 
-tasks.startScripts {
-    enabled = false
-}
-
-tasks.jar {
-    enabled = false
-}
-
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
