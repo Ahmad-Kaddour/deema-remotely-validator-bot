@@ -1,0 +1,8 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+.env
+
+# Ignore Gradle build output directory
+build
+bot_data.json
