@@ -17,7 +17,7 @@ import java.time.LocalDate
 import java.time.temporal.WeekFields
 import java.util.Locale
 
-val keywords = listOf("ريموت", "ريموتلي", "remotely", "remote", "+1", "و انا", "remotly", "remot")
+val keywords = listOf("ريمو", "++","ريموت", "ريموتلي", "remotely", "remote", "+1", "remotly", "remot")
 
 @Serializable
 data class UserWeekData(
